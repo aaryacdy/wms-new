@@ -17,6 +17,8 @@ public interface UserService {
             @Field("username") String username,
             @Field("password") String password,
             @Field("email") String email,
+            @Field("address") String address,
+            @Field("mobileNo") String mobileNo,
             @Field("type") String type
     );
 }

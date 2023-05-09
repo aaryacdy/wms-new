@@ -2,15 +2,13 @@ package np.edu.kathford.wastemanagementsystem;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import np.edu.kathford.wastemanagementsystem.activity.UserLogin;
 
 public class Main extends AppCompatActivity {
 
